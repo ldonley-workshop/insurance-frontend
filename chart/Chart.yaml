@@ -1,0 +1,7 @@
+apiVersion: v2
+name: insurance-frontend
+description: The frontend service for the demo Insurance app
+
+type: application
+
+version: 0.1.0

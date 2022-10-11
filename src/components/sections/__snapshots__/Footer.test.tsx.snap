@@ -1,0 +1,226 @@
+// Vitest Snapshot v1
+
+exports[`Footer Tests > Footer snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    aria-labelledby="footer-heading"
+    class="bg-gray-800"
+  >
+    <h2
+      class="sr-only"
+      id="footer-heading"
+    >
+      Footer
+    </h2>
+    <div
+      class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8"
+    >
+      <div
+        class="xl:grid xl:grid-cols-2 xl:gap-8"
+      >
+        <div
+          class="grid grid-cols-2 gap-8 xl:col-span-2"
+        >
+          <div
+            class="md:grid md:grid-cols-2 md:gap-8"
+          >
+            <div>
+              <h3
+                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+              >
+                Solutions
+              </h3>
+              <ul
+                class="mt-4 space-y-4"
+                role="list"
+              >
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Find plans
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Find doctors
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Network
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Learn
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="mt-12 md:mt-0"
+            >
+              <h3
+                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+              >
+                Support
+              </h3>
+              <ul
+                class="mt-4 space-y-4"
+                role="list"
+              >
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Contact us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Find doctors
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Health classes
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="md:grid md:grid-cols-2 md:gap-8"
+          >
+            <div>
+              <h3
+                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+              >
+                Company
+              </h3>
+              <ul
+                class="mt-4 space-y-4"
+                role="list"
+              >
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Jobs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Press
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Partners
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="mt-12 md:mt-0"
+            >
+              <h3
+                class="text-sm font-semibold text-gray-400 tracking-wider uppercase"
+              >
+                Legal
+              </h3>
+              <ul
+                class="mt-4 space-y-4"
+                role="list"
+              >
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Claim
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-base text-gray-300 hover:text-white"
+                    href="#"
+                  >
+                    Terms
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between"
+      >
+        <p
+          class="mt-8 text-base text-gray-400 md:mt-0 md:order-1"
+        >
+          © 2021 InsuranceHive, Inc. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
