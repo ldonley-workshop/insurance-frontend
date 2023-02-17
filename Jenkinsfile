@@ -1,21 +1,27 @@
 pipeline {
   agent {
     kubernetes {
-      containers {
-        container('nodejs') {
-          image 'node:18-alpine'
-          tty true
-          command 'cat'
-        }
-        container('syft') {
-          image 'ldonleycb/syft-runner'
-          tty true
-          command 'cat'
-        }
-      }
+      yaml """
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: maven
+spec:
+  containers:
+  - name: 'nodejs'
+    image: node:18-alpine
+    command:
+    - cat
+    tty: true
+  - name: 'syft'
+    image: ldonleycb/syft-runner
+    command:
+    - cat
+    tty: true
+"""
     }
   }
-
   stages {
     stage('Checkout') {
       steps {
