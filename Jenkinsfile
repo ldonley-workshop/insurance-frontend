@@ -37,7 +37,7 @@ spec:
         }
       }
     }
-
+    stage('Tests') {
     parallel {
       stage('Unit Test') {
         steps {
@@ -90,6 +90,7 @@ spec:
           echo 'Add compliance check'
         }
       }
+    }
     }
 
     stage('Generate SBOM') {
