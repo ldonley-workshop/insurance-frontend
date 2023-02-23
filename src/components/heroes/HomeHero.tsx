@@ -39,7 +39,11 @@ const HomeHero = () => {
                       label: "signup",
                     })
                   }
-                  className={`flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-white text-blue-700 hover:bg-blue-50 sm:px-8`}
+                  className={`flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-white ${
+                  flags.contrastButtons.isEnabled()
+                      ? "text-yellow-700 hover:bg-yellow-50"
+                      : "text-blue-700 hover:bg-blue-50"
+                  } sm:px-8`}
                 >
                   Get started
                 </Link>
