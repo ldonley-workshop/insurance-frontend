@@ -13,7 +13,7 @@ describe("HomeHero Tests", () => {
     );
 
     expect(screen.getByText(/Get started/i)).toBeDefined();
-    expect(screen.getByText(/Explore planss/i)).toBeDefined();
+    expect(screen.getByText(/Explore plans/i)).toBeDefined();
   });
 
   test("HomeHero snapshot", async () => {
