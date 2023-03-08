@@ -44,7 +44,11 @@ spec:
           container('nodejs') {
             sh 'npm run test:ci'
           }
-        archiveArtifacts artifacts: 'reports/junit.xml', fingerprint: true
+        }
+        post {
+          always {
+            junit 'reports/junit.xml'
+          }
         }
       }
 
