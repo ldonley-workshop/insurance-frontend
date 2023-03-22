@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: {{ include "chart.fullname" . }}
+  name: insurance-frontend
   labels:
 
 spec:
-  replicas: {{ .Values.replicaCount }}
+  replicas: 5
   strategy:
     canary:
       steps:
@@ -20,14 +20,14 @@ spec:
   revisionHistoryLimit: 2
   selector:
     matchLabels:
-      app: {{ include "chart.fullname" }}
+      app: insurance-frontend
   template:
     metadata:
       labels:
-        app: {{ include "chart.fullname" }}
+        app: insurance-frontend
     spec:
       containers:
-        - name: rollouts-demo
+        - name: insurance-frontend
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           ports:
             - name: http
